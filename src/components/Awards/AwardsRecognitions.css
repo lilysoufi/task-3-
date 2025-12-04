@@ -1,0 +1,97 @@
+.awards-recognitions-container {
+  
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.awards-slider-container {
+    
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 0;
+
+}
+
+.awards-slider-panel {
+    
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+
+}
+
+.awards-slider {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  transition: transform 0.3s ease;
+
+}
+
+.award-slide {
+  flex: 0 0 calc(33% - 20px);
+  min-width: 0;
+  
+}
+
+.awards-buttons-container .awards-panel {
+ margin-top: 50px;
+ display: flex;
+justify-content: space-between;
+
+}
+
+.awards-buttons-container .awards-panel h6 {
+font-family: "Raleway" ,sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+}
+         
+    
+
+.awards-buttons-container .awards-panel .awards-panel-buttons{
+ display: flex;
+ gap: 20px;
+}
+.awards-buttons-container .awards-panel .awards-panel-buttons :hover {
+    cursor: pointer;
+    background-color: #FFDECC ;
+}
+
+.awards-buttons-container .awards-panel .awards-panel-buttons  button {
+border: 2px solid #333333;
+border-radius: 8px;
+background: #FFFFFF;
+width: 58px;
+height: 58px;
+
+}
+
+@media (max-width :1440px) {
+    .awards-recognitions-container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 50px 20px;
+     }
+}
+
+@media (max-width : 480px) {
+    .awards-recognitions-container {
+         max-width: 400px;
+  
+}
+   .awards-slider-container {
+    
+  width: 100%;
+  overflow: hidden;
+  padding: 90px 0 60px 0;
+
+}
+    .award-slide {
+         flex: 0 0 100%;
+    }
+}

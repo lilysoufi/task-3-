@@ -1,0 +1,122 @@
+.accordion {
+    display: grid;
+    grid-template-columns: repeat(2 ,770px );
+    margin: 0px 166px ;
+    gap: 50px;
+    background-color: #FFEFE5;
+
+}
+
+
+
+.faqAccordion {
+   
+    
+    max-width: 770px;
+  border: 2px solid #262626;
+  border-radius: 8px;
+   overflow: hidden;
+  background-color: #FFEFE5;
+  padding: 34px 40px;
+}
+
+.faqAccordion.active {
+    background-color: white;
+}
+
+
+
+.accordion-header {
+  
+  background-color: #FFEFE5;
+  padding: 0px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-family: "Outfit" , sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  line-height: 150%;
+  letter-spacing: 0%;
+
+  transition: #FFEFE5  0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #FFEFE5;
+  cursor: pointer;
+}
+
+.accordion-header.active {
+  background-color: #FFEFE5 ;
+}
+
+.accordion-icon {
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #262626;
+  background-color: #FFF5F0;
+  font-weight: bold;
+  padding: 4px 4px 4px 4px;
+  margin-left: 40px;
+}
+
+.accordion-content {
+  background-color:#FFEFE5 ;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-content.active {
+  max-height: 500px; 
+  background-color: #FFEFE5;
+
+}
+
+.accordion-body {
+    border-top: 2px solid #262626;
+  padding: 20px;
+  line-height: 1.6;
+  font-family: "Outfit" , sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+
+}
+
+@media (max-width :1440px) {
+
+   .accordion {
+    margin: 0px 80px ;
+    display: grid;
+    grid-template-columns: repeat(2 ,610px );
+    gap :40px
+   }
+   .accordion-header {
+     font-size: 18px;
+   }
+   .accordion-body {
+    font-size: 16px;
+   }
+
+
+    
+}
+
+@media (max-width : 390px) {
+    .accordion { 
+        display: flex;
+        flex-direction: column;
+        margin: 0px 16px;
+        gap: 20px;
+    }
+    
+}

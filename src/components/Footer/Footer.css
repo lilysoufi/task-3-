@@ -1,0 +1,203 @@
+
+.footer {
+    margin: 50px 50px;
+    padding: 100px 113px 50px 113px;
+    background-color: white;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    
+
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 50px;
+
+}
+.footer-right p {
+    font-family: "Outfit" , sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 23px;
+
+line-height: 150%;
+letter-spacing: 0%;
+margin-bottom: 50px;
+margin-top: 20px;
+
+}
+
+.footer-logo {
+    display: flex;
+    gap: 10px;
+
+
+}
+
+f.footer-logo .little {
+    width: 170px;
+    height: 10px;
+}
+.footer-contanct {
+    display:flex;
+    flex-direction: column;
+    
+}
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Outfit" , sans-serif;
+   font-weight: 500;
+   font-style: Medium;
+   font-size: 20px;
+
+
+}
+.phone {
+     display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Outfit" , sans-serif;
+   font-weight: 500;
+   font-style: Medium;
+   font-size: 20px;
+}
+.location { 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Outfit" , sans-serif;
+   font-weight: 500;
+   font-style: Medium;
+   font-size: 20px;
+   
+}
+
+
+
+.footer-pages-summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.footer-pages-summary h5 {
+    font-family: Outfit;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 26px;
+
+
+}
+.footer-pages-summary p {
+    font-family: "Outfit" , sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 23px;
+
+
+}
+
+.footer-copyright {
+    width: 100%;
+}
+
+.footer-policy-social {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 30px ;
+    border-bottom: 1px solid #262626;
+    border-top: 1px solid #262626;
+    margin-bottom: 30px;
+}
+
+.footer-policy-social p {
+    font-family: "Outfit", sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 25px;
+line-height: 150%;
+margin-left: 20px;
+ 
+
+}
+.footer-policy-social img {
+    margin-bottom: 10px;
+}
+
+.footer-policy {
+    display: flex;
+}
+
+.copyright {
+    padding: 0px 550px;
+}
+
+@media (max-width :1440px) {
+    .copyright {
+    padding: 0px 330px;
+}
+}
+
+@media (max-width : 390px) {
+    .footer {
+    padding: 60px 30px;
+    margin: 80px 16px 20px 16px;
+    }
+
+    .footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 30px;
+
+}
+   .footer-right p {
+    font-size: 16px;
+   }
+   .footer-logo {
+    width: 180px;
+   }
+   .footer-logo .little {
+    width: 136px;
+    height: 18px;
+}
+    .footer-pages-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+    .footer-pages-summary p {
+        font-size: 16px ;
+    }
+   
+   .footer-policy-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+   }
+   .footer-policy {
+    display: flex;
+    
+    
+   }
+   .footer-policy p {
+     font-size: 14px;
+   }
+
+   .social-logo{
+    display: flex;
+    
+   }
+   .copyright {
+    padding: 0px 33px;
+}
+
+}

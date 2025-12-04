@@ -1,0 +1,142 @@
+.contact-hero-section {
+    position: relative;
+    border: 2px solid #262626;
+    box-shadow: 8px 8px 0px 1px #1E1E1E;
+    border-radius: 10px;
+    margin: 0 50px 200px 50px;
+    display: flex;
+    padding: 150px 120px;
+    background-color: #FFFFFF;
+    
+    & .contact-hero-title h6 {
+        border: 2px solid #262626;
+        border-radius: 8px;
+        width :max-content;
+        /* width: 135px;*/
+        height: 47px;
+        font-family: "Outfit" ,sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center; 
+        padding: 10px 20px;
+        margin-bottom: 14px;
+
+    }
+
+    & .contact-hero-title h2 {
+        font-family: "Raleway" ,sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 48px;
+        width: 765px;
+        
+
+    }
+
+    .contact-hero-icon {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+   
+    & .contact-hero-title p {
+        font-family: "Outfit" , sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        line-height: 150%;
+        color: #333333 ;
+
+    }
+
+}
+.contact-img-title {
+    display: flex;
+    height: 80px;
+    border-radius: 12px;
+    border: 2px solid #262626;
+    justify-items: center;
+
+}
+.contact-img-title #contact-img {
+    
+    padding: 7px;
+    height: 35px;
+     border-radius: 12px;
+     border: 2px solid #262626
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+}
+
+@media (max-width : 1440px) {
+    .about-hero {
+     margin: 0 80px 150px 80px;
+    
+    padding: 100px 80px;
+       
+    & h6 {
+        font-size: 18px;
+        padding: 8px 16px;
+        
+       
+    }
+
+    & h2 {
+       font-size: 38px;
+       width: 535px;
+       margin-right: 50px;
+    }
+    }
+    
+    .about-hero-icon {
+       width: 137px;
+       height: 137px;
+
+    }
+
+ 
+}
+
+@media (max-width :390px) {
+    .about-hero {
+         margin: 0 16px 80px 16px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         padding: 50px 30px;
+
+         & p {
+            font-size: 16px;
+         }
+
+         & .about-hero-title {
+            align-items: center;
+            width: 298px;
+            height: 119px;
+              margin-bottom: 20px;
+                
+             & h2 {
+                font-size: 28px;
+                width: 298px;
+                margin-left: 25px;
+              
+             }
+
+             & h6 {
+                margin: 0 110px 16px 75px;
+             }
+         }
+    }
+
+    .about-hero-icon {
+        height: 100px;
+        width: 100px;
+    }
+    
+}

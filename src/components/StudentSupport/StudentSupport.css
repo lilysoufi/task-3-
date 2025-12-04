@@ -1,0 +1,23 @@
+.supoort-data-container {
+    padding: 50px 162px 200px 162px ;
+    display: flex;
+    gap: 50px;
+}
+
+@media (max-width : 1440px) {
+    .supoort-data-container {
+    padding: 50px 80px 150px 80px ;
+    display: flex;
+    gap: 30px;
+}
+}
+
+@media (max-width : 390px) {
+    .supoort-data-container {
+    padding: 0;
+    margin: 50px 16px 80px 16px ;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+}

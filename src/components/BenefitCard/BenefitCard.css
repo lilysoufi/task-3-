@@ -1,0 +1,135 @@
+
+
+.benefit-card {
+   
+    
+     position: relative;
+    border-radius: 12px;
+    border-width: 2px;
+   
+  
+
+} 
+    
+.benefit-card-img {
+    border: 2px solid #262626;
+    background-color: #FFDECC;
+    border-radius: 12px;
+    position:absolute;
+    left: 30px;
+    top: -40px;
+    height: 74px;
+    width: 74px;
+}
+
+.benefit-card img {
+   padding: 20px;
+ 
+
+}
+
+.benefit-card-info {
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+     width: 504px;
+     height: 306px;
+     padding: 80px 50px 50px 50px;
+
+
+}
+
+.benefit-card-info h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    padding-bottom: 20px;
+
+
+}
+
+.benefit-card-info p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    columns:  #4C4C4D;
+
+
+}
+
+@media (max-width : 1440px) {
+   
+    .benefit-card {
+        width: 400px;
+        height: 201px;
+        padding: 30px 40px;
+
+    }
+
+    .benefit-card-img {
+       height: 56px;
+       width: 56px;
+         left: 70px;
+         top: 0px;
+}
+
+    .benefit-card img {
+      padding: 10px;
+
+}
+    .benefit-card-info {
+   
+     padding: 60px 40px 40px 40px;
+     width: 400px;
+     height: 240px;
+    
+
+
+
+}
+    .benefit-card-info h3 {
+        font-size: 24px;
+        
+    }
+    
+    .benefit-card-info p {
+       font-size: 16px;
+    }
+}
+
+@media (max-width : 390px) {
+       .benefit-card {
+          width: 300px;
+          height: 221px;
+          padding: 0px;
+          margin: 0 16px 100px 16px;
+       }
+       .benefit-card-info {
+          padding: 50px 40px 30px 40px;
+       }
+
+        .benefit-card-img {
+            left: 30px;
+          top: -30px;
+          width: 56px;
+          height: 56px;
+          gap: 10px;
+          border-radius: 8px;
+       
+
+        }
+       .benefit-card-img img {
+      
+          padding: 10px;
+
+       }
+       .benefit-card-info h3 {
+        padding-bottom: 16px;
+        font-size: 22px;
+       }
+       .benefit-card-info p {
+          font-size: 16px;
+       }
+}

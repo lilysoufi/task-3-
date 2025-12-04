@@ -1,0 +1,114 @@
+.event-card {
+    position: relative;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    /*width: 75%;*/
+    height: 570px;
+    
+    background-color:#FFFFFF;
+    padding: 8% 6% ;
+    
+
+    & .event-decoration {
+        position: absolute;
+        top: 0%;
+        right: 37%;
+        border: 2px solid #262626;
+        /*width : 125px;
+        height: 380px;*/
+        width: 30%;
+        height: 70%;
+        background-color: #FFEFE5;
+        border-end-end-radius: 12px;
+        border-bottom-left-radius: 12px;
+       
+    }
+
+    
+
+    & .event-info {
+        position: absolute;
+         align-items: center;
+
+         & img {
+       width: 95%;
+    }
+   
+  
+    & h3 {
+         font-family: "Raleway" ,sans-serif;
+         font-weight: 700;
+         font-style: Bold;
+         font-size: 28px;
+         line-height: 130%;
+         letter-spacing: 0%;
+         text-align: center;
+         margin-top: 12%;
+         margin-right: 6%;
+         
+
+    }
+
+    & p {
+        font-family: "Outfit" , sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        color: #4C4C4D;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 5%;
+        margin-right: 6%;
+
+    }
+   }
+
+}
+@media (max-width :1700px) {
+    .event-card {
+        height: 500px;
+
+
+        & .event-decoration {
+          height: 65%;
+         }
+
+         & .event-info h3 {
+           font-size: 26px;
+         }
+         & .event-info p {
+            font-size: 17px;
+         }
+    }
+}
+
+@media (max-width :1440px) {
+    .event-card {
+        height: 433px;
+
+         & .event-decoration {
+          height: 69%;
+         }
+
+         & .event-info h3 {
+           font-size: 24px;
+         }
+         & .event-info p {
+            font-size: 16px;
+         }
+    }
+}
+
+@media (max-width : 390px) {
+    .event-card{
+        height: 368px;
+        padding: 7% 8%;
+
+        & .event-info img {
+            height:191px;
+            width: 300px;
+        }
+    }
+}

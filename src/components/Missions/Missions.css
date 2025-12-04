@@ -1,0 +1,113 @@
+.mission-card-container {
+    display: flex;
+    gap: 60px;
+    margin: 0 162px 200px 162px;
+
+    & .mission-card {
+    background-color: #FFFFFF;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    width: 768px;
+    height: 410px;
+    padding: 60px;
+
+    & .card-title-icon {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 60px;
+
+    & h2 {
+        font-family: "Raleway" ,sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 48px;
+       line-height: 130%;
+
+
+    }
+
+
+}
+
+    & p {
+        font-family: "Outfit" , sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+       font-size: 20px;
+       line-height: 150%;
+       letter-spacing: 0%;
+       color: #333333;
+
+    }
+
+}
+}
+
+@media (max-width :1440px) {
+    .mission-card-container {
+        margin: 80px 80px 154px 80px;
+        gap: 40px;
+
+         & .mission-card {
+            padding: 50px;
+            height: auto;
+            height: auto;
+          
+          & .card-title-icon {
+            margin-bottom: 50px;
+          }
+
+          & .card-title-icon h2 {
+             font-size: 38px;
+            
+          }  
+          & .card-title-icon img {
+            width: 60px;
+          }
+
+          & p {
+            font-size: 16px;
+          }
+            
+         }
+
+    }
+}
+
+@media (max-width :390px) {
+    .mission-card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 50px 16px 80px 16px;
+
+        & .mission-card {
+            padding: 40px;
+            height: 386px;
+            width: auto;
+
+             & .card-title-icon {
+            margin-bottom: 40px;
+          
+             }
+          & .card-title-icon h2 {
+             font-size: 30px;
+          } 
+          
+           & .card-title-icon img {
+            height: 50px;
+            width: 55px;
+            
+          }
+          
+          & p {
+            font-size: 15px;
+          }
+            
+         
+        }
+        
+    }
+}
+

@@ -1,0 +1,153 @@
+.member-card {
+   padding: 50px;
+   border: 2px solid #262626;
+   border-radius: 12px;
+   box-shadow: 6px 6px 0px 2px #1E1E1E;
+   height: 502px;
+   width: 773px;
+   background-color: #FFFFFF;
+
+    & .member-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .memeber-card-profile {
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
+            align-items: center;
+            gap: 10px;
+           
+            
+
+            & img {
+                 width: 100px;
+                 height: 100px;
+                 background-color: #FFF5F0;
+            }
+        }
+        
+        
+
+
+        & .member-card-email  {
+            border: 2px solid #262626;
+            border-radius: 12px;
+            width: 50px;
+            height: 50px;
+            background-color: #FFDECC;
+
+            & img {
+                padding: 14px 11px;
+            }
+        }
+    }
+
+    & .member-card-body {
+       padding: 30px;
+       border: 2px solid #262626;
+       border-radius: 12px;
+       margin-top: 30px;
+       background-color: #FFF5F0;
+
+          & h5 {
+            font-family: "Outfit";
+            font-weight: 600;
+            font-style: SemiBold;
+           font-size: 24px;
+           line-height: 150%;
+           letter-spacing: 0%;
+           color: #333333;
+           margin-bottom: 20px;
+
+          }
+
+          & p {
+            font-family: "Outfit" ;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            color: #333333;
+
+
+          }
+    }
+}
+
+@media (max-width : 1440px) {
+
+    .member-card {
+   padding: 40px;
+   height: 404px;
+   width: 620px;
+   
+
+      & .member-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .memeber-card-profile {
+          
+     
+           
+           & img {
+             width: 80px;
+            height: 80px;
+           }
+        }
+     
+
+    }
+
+
+     & .member-card-body {
+       padding: 24px;
+       margin-top: 24px;
+         
+         & h5 {
+            font-size: 20px;
+            margin-bottom: 16px;
+         }
+
+          & p {
+            font-size: 16px;
+
+            }
+
+        }
+}
+}
+
+@media (max-width : 390px) {
+    .member-card {
+     padding: 30px;
+     height:454px;
+     width: 358px;
+
+         & .member-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .memeber-card-profile img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+        
+      & .member-card-body {
+       padding: 20px;
+       
+         
+         & h5 {
+            font-size: 20px;
+            margin-bottom: 16px;
+         }
+      }
+       
+    }
+}

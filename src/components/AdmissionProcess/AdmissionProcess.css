@@ -1,0 +1,5 @@
+.admission-container {
+    display: grid;
+    grid-template-columns: repeat(3,498px);
+    gap: 50px;
+}

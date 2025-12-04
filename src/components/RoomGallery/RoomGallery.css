@@ -1,0 +1,55 @@
+.gallery-container {
+ margin-bottom: 200px;
+
+    & .gallery-buttons {
+        margin:  0% 20%;
+        justify-content: center;
+
+        & button {
+             height: 54px;
+             width: max-content;
+             font-family: "Outfit" , sans-serif;
+             font-weight: 600;
+             font-style: SemiBold;
+             font-size: 20px;
+             padding: 14px;
+             margin: 0 1%;
+             background-color: #FFFFFF;
+             border: 2px solid #333333;
+             border-radius: 8px;
+
+
+        }
+
+        & :hover {
+            cursor: pointer;
+        }
+
+        & :active {
+            background-color:  #FFEFE5;
+        }
+    }
+}
+
+@media (max-width : 1440px) {
+    .gallery-container {
+
+
+    & .gallery-buttons {
+        margin:  0% 15%;
+
+
+
+    }
+}
+}
+
+@media (max-width : 390px) {
+    .gallery-container {
+
+
+    & .gallery-buttons {
+        margin:  0% 8%;
+    }
+    }
+}

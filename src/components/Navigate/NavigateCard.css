@@ -1,0 +1,140 @@
+
+.navigate-card {
+    
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    width: 773px;
+    height: 588px;
+    gap: 80px;
+    border-radius: 12px;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigate-card h2 {
+    font-family: "Raleway" , sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.navigate-card p {
+    font-family: "Outfit" , sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #4C4C4D;
+    margin: 50px 0px 80px 0px ;
+
+
+}
+
+.navigate-card button {
+    width: 613px;
+    height: 66px;
+    gap: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: #FFDECC;
+    border: 2px solid #262626;
+    box-shadow: 4px 4px 0px 2px #1E1E1E;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #333333;
+    
+
+
+}
+
+@media (max-width : 1440px) {
+    .navigate-card {
+        width: 620px;
+        height: 467px;
+        gap: 60px;
+        border-radius: 10px;
+        padding: 60px;
+
+    }
+    .navigate-card h2 {
+        font-size: 34px;
+    }
+    .navigate-card img {
+        width : 500px;
+    }
+
+    .navigate-card button {
+       width: 500px;
+       height: 63px;
+       padding-top: 18px;
+       padding-bottom: 18px;
+      
+
+    }
+    .navigate-card p {
+        margin : 40px 0px 60px 0px;
+         font-size: 16px;
+    }
+
+    .navigate-card button img {
+        width: 15px;
+       height: 15px;
+    }
+}
+
+@media (max-width :390px) {
+    .navigate-card  {
+        width: 358px;
+        height: 426px;
+        gap: 40px;
+        padding: 40px;
+
+    }
+    .navigate-card h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .navigate-card img {
+       width: 278px;
+       height: 20px;
+      
+    }
+
+    .navigate-card p {
+        font-size: 16px;
+       margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .navigate-card button {
+        width: 278px;
+        height: 56px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-bottom: 20px;
+
+    }
+
+    .navigate-card button img {
+        width: 12px;
+       height: 13px;
+
+    }
+}

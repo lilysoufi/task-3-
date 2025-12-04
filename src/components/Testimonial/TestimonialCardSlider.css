@@ -1,0 +1,195 @@
+.testimionial-slider-container{
+  max-width: 800px;
+  margin: 0px 16px;
+  
+  text-align: center;
+}
+
+.card-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px;
+}
+
+.slider-track {
+  width: 100%;
+  max-width: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 0px 2px #1E1E1E;
+
+}
+
+.slider-cards {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.card {
+  flex: 0 0 100%;
+  min-width: 100%;
+  background: white;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.card-image {
+    margin: 30px 0px 10px 0px;
+}
+
+.card-image img {
+  width: 46px;
+  height: 46px;
+  
+  border: 1px solid #333333;
+    border-radius: 100px;
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.card-content h3 {
+  margin: 0px 0px 20px 0px;
+  color: #333;
+  font-size: 20px;
+  font-family: "Outfit" , sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  text-align: center;
+
+}
+.card-content img {
+    margin-bottom: 20px;
+}
+
+.card-content p {
+  font-family: "Outfit", sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: #333333;
+  margin-bottom: 30px;
+}
+
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: white;
+  border: 2px solid #333333;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+
+
+
+@media (max-width: 480px) {
+  .slider-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.3rem;
+  }
+}
+  @media (min-width : 1920px) {
+    .testimionial-slider-container{
+      
+      position: relative;
+      max-width: 1500px;
+      margin : 0px 300px;
+      justify-content: center;
+      
+      text-align: center;
+}   
+    .slider-track {
+     width: 100%;
+     max-width: 600px;
+     max-height: 400px;
+    }
+    
+    .card  {
+      
+      height: 400px;
+      width: 600px;
+    }
+    .card-image img {
+      
+      margin-top: 30px;
+     width: 70px;
+     height: 70px;
+    border: 1px solid #333333;
+    border-radius: 100px;
+}
+    .card-content h3 {
+      font-size: 24px;
+    }
+
+    .card-content p {
+      font-size: 20px;
+    }
+    .slider-btn {
+      width: 60px;
+      height: 60px;
+  }
+  .prev-btn {
+  left: 200px;
+}
+
+.next-btn {
+  right: 200px;
+}
+
+  }
+
+@media (min-width :1440px) {
+   .testimionial-slider-container{
+      max-width: 1250px;
+      margin: 0px 82px;
+      text-align: center;
+}   
+ .card-image img {
+  margin-top: 30px;
+ }
+
+   .prev-btn {
+  left: 200px;
+}
+
+.next-btn {
+  right: 200px;
+}
+}

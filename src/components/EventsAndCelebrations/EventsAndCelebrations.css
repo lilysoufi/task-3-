@@ -1,0 +1,21 @@
+.event-container {
+    margin: 100px 162px 200px 162px;
+    display: grid;
+    grid-template-columns: repeat(3 , 30%);
+    gap: 50px;
+}
+
+@media (max-width : 1440px) {
+    .event-container {
+        margin: 9% 8% ;
+    }
+}
+
+
+@media (max-width :480px) {
+    .event-container{
+        display: flex;
+        flex-direction: column;
+        margin: 45% 4%;
+    }
+}
